@@ -1,4 +1,4 @@
-require_relative 'gate'
+require 'gate'
 
 class AndGate < Gate
     def output
