@@ -1,4 +1,3 @@
-require_relative './shared_examples/gate_examples'
 require_relative '../lib/gate'
 
 RSpec.describe Gate do
