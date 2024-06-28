@@ -5,4 +5,8 @@ class Gate
         raise NotImplementedError if instance_of?(Gate)
         @inputs = inputs
     end
+
+    def output
+        raise NotImplementedError
+    end
 end
