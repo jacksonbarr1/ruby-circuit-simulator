@@ -1,5 +1,5 @@
-require_relative './support/shared_examples'
 require_relative '../lib/and_gate'
+require_relative './support/shared_examples'
 require_relative './support/shared_contexts'
 
 RSpec.describe AndGate do

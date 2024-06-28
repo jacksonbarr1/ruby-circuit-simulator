@@ -1,5 +1,6 @@
-require_relative './support/shared_examples'
 require_relative '../lib/or_gate'
+require_relative './support/shared_examples'
+require_relative './support/shared_contexts'
 
 RSpec.describe OrGate do
     include_context "gate with insufficient inputs"
