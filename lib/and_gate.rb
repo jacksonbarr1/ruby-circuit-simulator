@@ -1,6 +1,11 @@
 class AndGate
+    attr_accessor :inputs
+
+    def initialize(*inputs)
+        @inputs = inputs
+    end
 
     def output
-        0
+        inputs.all? { |input| input == 1 } ? 1 : 0
     end
 end
