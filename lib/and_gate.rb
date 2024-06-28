@@ -1,9 +1,6 @@
-class AndGate
-    attr_accessor :inputs
+require_relative 'gate'
 
-    def initialize(*inputs)
-        @inputs = inputs
-    end
+class AndGate < Gate
 
     def output
         inputs.all? { |input| input == 1 } ? 1 : 0
