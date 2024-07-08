@@ -1,4 +1,4 @@
-require_relative '../lib/gate'
+require_relative '../lib/gate/gate'
 
 RSpec.describe Gate do
     it "cannot be instantiated directly" do

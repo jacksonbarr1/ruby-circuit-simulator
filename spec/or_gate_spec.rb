@@ -1,4 +1,4 @@
-require_relative '../lib/or_gate'
+require_relative '../lib/gate/or_gate'
 require_relative './support/shared_examples'
 require_relative './support/shared_contexts'
 

@@ -1,4 +1,4 @@
-require_relative '../lib/and_gate'
+require_relative '../lib/gate/and_gate'
 require_relative './support/shared_examples'
 require_relative './support/shared_contexts'
 require_relative 'spec_helper'
